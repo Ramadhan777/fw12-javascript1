@@ -1,4 +1,4 @@
-const biodata = {
+  const biodata = {
   name: "Fajri Ramadhan",
   age: 19,
   hobbies: ["ngoding", "main game", "makan", "nonton"],
@@ -17,9 +17,9 @@ const biodata = {
     },
     {
       name: "SMK ARINDA PALEMBANG",
-      yearIn: 2015,
-      yearOut: 2018,
-      major: "Accountant",
+      yearIn: 2018,
+      yearOut: 2021,
+      major: "Accounting",
     },
   ],
   skills: [

@@ -4,19 +4,15 @@ const isPalindrome = (teks) => {
   }
 
   let x = teks.length - 1;
-
   let hasil = "";
 
   for (i = 0; i <= x; x--) {
     hasil = hasil + teks[x];
   }
 
-  const check = hasil === teks;
+  const check = hasil === teks ?  "Palindrome" : "Bukan Palindrome"
 
-  if (check) {
-    return "Palindrome";
-  } else {
-    return "Bukan Palindrome";
-  }
+  return check
 };
 
+console.log(isPalindrome("apa"))
